@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#000000" x="15.5" y="15.5" width="34.5" height="69"></rect>
+        <rect id="Rectangle" stroke="#000000" x="50" y="15.5" width="34.5" height="69"></rect>
+        <rect id="Rectangle" stroke="#000000" x="15.5" y="70.5" width="69" height="14"></rect>
+        <path d="M46,63.5 L46,64.5 L20,64.5 L20,63.5 L46,63.5 Z M46,59 L46,60 L20,60 L20,59 L46,59 Z M46,54.5 L46,55.5 L20,55.5 L20,54.5 L46,54.5 Z M46,50 L46,51 L20,51 L20,50 L46,50 Z M46,45.5 L46,46.5 L20,46.5 L20,45.5 L46,45.5 Z M46,41 L46,42 L20,42 L20,41 L46,41 Z M46,36.5 L46,37.5 L20,37.5 L20,36.5 L46,36.5 Z M46,32 L46,33 L20,33 L20,32 L46,32 Z M46,27.5 L46,28.5 L20,28.5 L20,27.5 L46,27.5 Z M46,23 L46,24 L20,24 L20,23 L46,23 Z M46,18.5 L46,19.5 L20,19.5 L20,18.5 L46,18.5 Z" id="Line-3" fill="#000000" fill-rule="nonzero"></path>
+        <path d="M80,63.5 L80,64.5 L54,64.5 L54,63.5 L80,63.5 Z M80,59 L80,60 L54,60 L54,59 L80,59 Z M80,54.5 L80,55.5 L54,55.5 L54,54.5 L80,54.5 Z M80,50 L80,51 L54,51 L54,50 L80,50 Z M80,45.5 L80,46.5 L54,46.5 L54,45.5 L80,45.5 Z M80,41 L80,42 L54,42 L54,41 L80,41 Z M80,36.5 L80,37.5 L54,37.5 L54,36.5 L80,36.5 Z M80,32 L80,33 L54,33 L54,32 L80,32 Z M80,27.5 L80,28.5 L54,28.5 L54,27.5 L80,27.5 Z M80,23 L80,24 L54,24 L54,23 L80,23 Z M80,18.5 L80,19.5 L54,19.5 L54,18.5 L80,18.5 Z" id="Line-3" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

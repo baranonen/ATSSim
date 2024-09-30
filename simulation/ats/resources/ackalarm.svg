@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(70, 68) rotate(45) translate(-70, -68)translate(49, 52)" stroke="#000000" stroke-width="1.24922198">
+            <path d="M42,32 L15.4411765,32 C5.14705882,31.1794872 0,25.8461538 0,16 C0,6.15384615 5.14705882,0.820512821 15.4411765,0 L42,0" id="Path-27"></path>
+            <ellipse id="Oval" cx="17.2941176" cy="17.8461538" rx="13.5812714" ry="11.0676967"></ellipse>
+        </g>
+        <polygon id="Triangle" fill="#000000" transform="translate(17, 27.5) rotate(90) translate(-17, -27.5)" points="17 16.5 39.5 38.5 -5.5 38.5"></polygon>
+        <rect id="Rectangle" fill="#000000" x="6" y="22" width="69" height="11"></rect>
+        <ellipse id="Oval" stroke="#000000" stroke-width="3" cx="48" cy="31.5" rx="7.5" ry="6"></ellipse>
+    </g>
+</svg>

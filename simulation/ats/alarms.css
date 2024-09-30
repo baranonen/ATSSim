@@ -1,0 +1,30 @@
+.alarmlist {
+    width: 910px;
+    height: 670px;
+    position: absolute;
+    left: 12.5px;
+    top: 122px;
+    overflow: scroll;
+}
+
+.event {
+    width: 100%;
+    height: 22px;
+    background-color: white;
+    border: none;
+    border-radius: 0;
+    border-top: solid black 1px;
+    border-left: solid black 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+
+.eventfirstcolumn {
+    width: 320px;
+    text-align: left;
+}

@@ -1,0 +1,11 @@
+.turkish {
+    display: none;
+}
+
+.english {
+    display: unset;
+}
+
+.translated {
+    display: unset;
+}

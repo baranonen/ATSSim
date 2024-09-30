@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <line x1="63.5" y1="43" x2="23.5" y2="20" id="Path-26" stroke="#FFFFFF"></line>
+        <line x1="63.5" y1="43" x2="52.5" y2="20" id="Path-26" stroke="#FFFFFF"></line>
+        <line x1="63.5" y1="43" x2="81.5" y2="20" id="Path-26" stroke="#000000"></line>
+        <line x1="59.5" y1="57" x2="72.5" y2="76" id="Path-26" stroke="#000000"></line>
+        <line x1="27.5" y1="50" x2="55.5" y2="50" id="Path-26" stroke="#000000"></line>
+        <rect id="Rectangle" stroke="#000000" fill="#FFFFFF" x="11.5" y="16.5" width="24" height="9"></rect>
+        <rect id="Rectangle" stroke="#000000" fill="#000000" x="27.5" y="74.5" width="24" height="9"></rect>
+        <rect id="Rectangle" stroke="#000000" fill="#000000" x="59.5" y="74.5" width="24" height="9"></rect>
+        <rect id="Rectangle" stroke="#000000" fill="#000000" x="6.5" y="45.5" width="24" height="9"></rect>
+        <rect id="Rectangle" stroke="#000000" fill="#000000" x="52.5" y="38.5" width="34" height="23"></rect>
+        <rect id="Rectangle" stroke="#000000" fill="#FFFFFF" x="40.5" y="16.5" width="24" height="9"></rect>
+        <rect id="Rectangle" stroke="#000000" fill="#000000" x="69.5" y="16.5" width="24" height="9"></rect>
+    </g>
+</svg>

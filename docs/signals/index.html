@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signals | ATSSim</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <h1>ATSSim</h1>
+    <p>Simulation of the old ATS, SSI and SACEM systems of the Istanbul Metro</p>
+    <details>
+        <summary>Navigation</summary>
+        <a href="/">Home</a>
+        <a href="/simulation/">Simulation</a>
+        <br>
+        <span>Docs</span>
+        <hr>
+        <a href="/docs/signals/">Signals</a>
+        <a href="/docs/userinterface/">User Interface</a>
+    </details>
+    <h2>Signals</h2>
+    <p>Signals are displayed on the mimic diagram as shown below.</p>
+    <img src="/assets/signaldetails.jpg" alt="">
+    <br>
+    <small>Screenshot of a signal</small>
+    <p>Depending on the situation, a signal and its buttons may be shown with different colors.</p>
+    <p></p>
+    <h3>Aspect</h3>
+    <img src="/assets/signalaspect.jpg" alt="">
+    <p>The signal's aspect may be as following:</p>
+    <ul>
+        <li>
+            <b>Red</b>
+            <p>There is no route, stop.</p>
+        </li>
+        <li>
+            <b>Green</b>
+            <p>There is a train route, passing the signal is allowed.</p>
+            <p>Unlike most signalling systems, the signal will turn green as long as there is at least one track circuit with a subroute on it. The ATC will continue to supervise the train movement.</p>
+        </li>
+        <li>
+            <b>Flashing Green</b>
+            <p>There is a shunting route, expect stop at the next shunting panel, passing the signal is allowed.</p>
+        </li>
+        <li>
+            <b>Flashing Red</b>
+            <p>The route has been cancelled and is inside the safety timer. A cancelled route will be completely removed after 60 seconds has passed.</p>
+            <p>This aspect is special to the ATS, and is shown as red on the physical signals.</p>
+        </li>
+    </ul>
+    <h3>Signal Button</h3>
+    <img src="/assets/signalbutton.jpg" alt="">
+    <p>If the signal is closed and fleeting is off, the signal button will display a gray background with a yellow arrow. Otherwise, the background will be white and the arrow black.</p>
+    <p>Route setting functions are accessed via this button.</p>
+    <h3>Fleeting Button</h3>
+    <img src="/assets/fleetingbutton.jpg" alt="">
+    <p>Fleeting allows the same route to be set for all trains automatically to reduce the workload of the dispatcher. Only some signals have this function.</p>
+    <p>If fleeting is disabled, the fleeting button will display a gray background with a yellow F letter. Otherwise, the background will be white and the F letter black.</p>
+    <p>Fleeting functions are accessed via this button.</p>
+    <h3>Cancel Button</h3>
+    <img src="/assets/cancelbutton.jpg" alt="">
+    <p>This button is used to cancel a route.</p>
+    <h3>Target Button</h3>
+    <img src="/assets/targetbutton.jpg" alt="">
+    <p>Sometimes, the target signal of a route may not be on the same mimic diagram as the start signal. In this case, a target button is placed.</p>
+    <p>It has the same functionality as a signal button and is displayed with a thinner arrow.</p>
+    <h3>Examples</h3>
+    <ul>
+        <li>
+            <h3>Green, Fleeting On</h3>
+            <img src="/assets/signal.jpg" alt="">
+            <p>There is a route set and fleeting is enabled.</p>
+        </li>
+        <li>
+            <h3>Green, Fleeting Off</h3>
+            <img src="/assets/greensignalfleetingoff.jpg" alt="">
+            <p>There is a route set but fleeting is disabled.</p>
+        </li>
+        <li>
+            <h3>Red, Fleeting Off</h3>
+            <img src="/assets/redsignal.jpg" alt="">
+            <p>There is no route set.</p>
+        </li>
+    </ul>
+    <h2>Commands</h2>
+    <h3>Setting a route</h3>
+    <ol>
+        <li>
+            <p>Click the button of the start signal. The button will start to blink.</p>
+            <img src="/assets/signalstartclick.jpg" alt="">
+        </li>
+        <li>
+            <p>Click the button of the target signal.</p>
+            <img src="/assets/signaltargetclick.jpg" alt="">
+        </li>
+        <li>
+            <p>The interlocking will check for any conflicting routes and occupancies.</p>
+        </li>
+        <li>
+            <p>If there aren't any, the points will be moved automatically as needed and the signal will display the green aspect.</p>
+            <img src="/assets/routeset.jpg" alt="">
+        </li>
+    </ol>
+    <footer>
+        <a href="https://github.com/baranonen/ATSSim">GitHub</a>
+        <br>
+        <a href="/simulation/">Simulation</a>
+    </footer>
+</body>
+</html>

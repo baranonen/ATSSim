@@ -1,0 +1,154 @@
+.atsmainwindow {
+    position: relative;
+}
+
+.atsheader {
+    min-width: 1266px;
+    min-height: 80px;
+    border: 1px solid black;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+
+.customerlogo {
+    position: absolute;
+    top: 4px;
+    left: 17px;
+    width: 65px;
+    height: 70px;
+    border: 1px solid black;
+}
+
+.alarmrectangle {
+    position: absolute;
+    top: 49px;
+    left: 123px;
+    width: 25px;
+    height: 25px;
+}
+
+.lastalarm {
+    position: absolute;
+    top: 49px;
+    left: 154px;
+    width: 994px;
+    height: 25px;
+    background: none;
+}
+
+.currentscreentitle {
+    position: absolute;
+    top: 8px;
+    left: 365px;
+    font-size: 30px;
+    margin: 0;
+}
+
+.timedate {
+    position: absolute;
+    top: 5px;
+    left: 948px;
+    margin: 0;
+    width: 200px;
+}
+
+.user {
+    position: absolute;
+    top: 25px;
+    left: 948px;
+    margin: 0;
+    padding-left: 28px;
+    width: 200px;
+}
+
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 1164px;
+    width: 90px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.sessionname {
+    position: absolute;
+    top: 49px;
+    left: 1154px;
+    margin: 0;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.mimicscreen, .alarmscreen, .accessscreen {
+    position: absolute;
+    box-sizing: content-box;
+    left: 6px;
+    top: 91px;
+    width: 1266px;
+    height: 815px;
+    display: none;
+}
+
+.navigationbar {
+    position: absolute;
+    top: 912px;
+    height: 75px;
+    left: 6px;
+    right: 6px;
+    border: 1px solid black;
+}
+
+.navigationbar button {
+    height: 62px;
+    width: 62px;
+    background: none;
+    background-size: cover;
+    margin-top: 2px;
+    border-top: white solid 1px;
+    border-left: white solid 1px;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+}
+
+.navigationbar .buttonwithmargin {
+    margin-left: 10px;
+}
+
+.navigationbar .interlockinganswer {
+    margin: 0;
+    position: absolute;
+    left: 794px;
+    top: 11px;
+    width: 430px;
+    height: 20px;
+    font-weight: bold;
+}
+
+.navigationbar .secondline {
+    top: 42px;
+}
+
+.positive3d {
+    border-top: white solid 1px;
+    border-left: white solid 1px;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+}
+
+.negative3d {
+    border-bottom: white solid 1px;
+    border-right: white solid 1px;
+    border-left: black solid 1px;
+    border-top: black solid 1px;
+}
+
+.translated {
+    display: none;
+}
+
+.bold {
+    font-weight: bold;
+}

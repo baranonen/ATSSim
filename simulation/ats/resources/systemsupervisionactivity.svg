@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="752px" height="232px" viewBox="0 0 752 232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <defs>
+        <rect id="path-1" x="1" y="1" width="750" height="230"></rect>
+        <filter x="-0.2%" y="-0.7%" width="100.4%" height="101.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="-1" dy="1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="-1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetOuter4"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter4" result="shadowMatrixOuter4"></feColorMatrix>
+            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetOuter5"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter5" result="shadowMatrixOuter5"></feColorMatrix>
+            <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter6"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter6" result="shadowMatrixOuter6"></feColorMatrix>
+            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetOuter7"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter7" result="shadowMatrixOuter7"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter4"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter5"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter6"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter7"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-3" x="13" y="9" width="725" height="215"></rect>
+        <filter x="-0.2%" y="-0.7%" width="100.4%" height="101.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="-1" dy="1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="-1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetOuter4"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter4" result="shadowMatrixOuter4"></feColorMatrix>
+            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetOuter5"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter5" result="shadowMatrixOuter5"></feColorMatrix>
+            <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter6"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter6" result="shadowMatrixOuter6"></feColorMatrix>
+            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetOuter7"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter7" result="shadowMatrixOuter7"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter4"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter5"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter6"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter7"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="116" height="165"></rect>
+        <filter x="-1.3%" y="-0.9%" width="102.6%" height="101.8%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="-1" dy="1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="-1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetOuter4"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter4" result="shadowMatrixOuter4"></feColorMatrix>
+            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetOuter5"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter5" result="shadowMatrixOuter5"></feColorMatrix>
+            <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter6"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter6" result="shadowMatrixOuter6"></feColorMatrix>
+            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetOuter7"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter7" result="shadowMatrixOuter7"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter4"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter5"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter6"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter7"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-7" x="0" y="0" width="450" height="165"></rect>
+        <filter x="-0.3%" y="-0.9%" width="100.7%" height="101.8%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="-1" dy="1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="-1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetOuter4"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter4" result="shadowMatrixOuter4"></feColorMatrix>
+            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetOuter5"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter5" result="shadowMatrixOuter5"></feColorMatrix>
+            <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter6"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter6" result="shadowMatrixOuter6"></feColorMatrix>
+            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetOuter7"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter7" result="shadowMatrixOuter7"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter4"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter5"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter6"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter7"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-9" x="0" y="0" width="130" height="165"></rect>
+        <filter x="-1.2%" y="-0.9%" width="102.3%" height="101.8%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="-1" dy="1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="-1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetOuter4"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter4" result="shadowMatrixOuter4"></feColorMatrix>
+            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetOuter5"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter5" result="shadowMatrixOuter5"></feColorMatrix>
+            <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter6"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter6" result="shadowMatrixOuter6"></feColorMatrix>
+            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetOuter7"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter7" result="shadowMatrixOuter7"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter4"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter5"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter6"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter7"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-11" x="52" y="52" width="65" height="23"></rect>
+        <filter x="-2.3%" y="-6.5%" width="104.6%" height="113.0%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="-1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter4"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter4" result="shadowMatrixOuter4"></feColorMatrix>
+            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetOuter5"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter5" result="shadowMatrixOuter5"></feColorMatrix>
+            <feOffset dx="-1" dy="1" in="SourceAlpha" result="shadowOffsetOuter6"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter6" result="shadowMatrixOuter6"></feColorMatrix>
+            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetOuter7"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter7" result="shadowMatrixOuter7"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter4"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter5"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter6"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter7"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-13" x="52" y="105" width="65" height="23"></rect>
+        <filter x="-2.3%" y="-6.5%" width="104.6%" height="113.0%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="-1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter4"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter4" result="shadowMatrixOuter4"></feColorMatrix>
+            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetOuter5"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter5" result="shadowMatrixOuter5"></feColorMatrix>
+            <feOffset dx="-1" dy="1" in="SourceAlpha" result="shadowOffsetOuter6"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter6" result="shadowMatrixOuter6"></feColorMatrix>
+            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetOuter7"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter7" result="shadowMatrixOuter7"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter4"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter5"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter6"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter7"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#9496A2" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <g id="Rectangle">
+            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+            <use fill="#9496A2" fill-rule="evenodd" xlink:href="#path-3"></use>
+        </g>
+        <text id="SYSTEM-SUPERVISION-A" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#000000" fill-opacity="0.9">
+            <tspan x="238.277588" y="29">SYSTEM SUPERVISION ACTIVITY</tspan>
+        </text>
+        <g id="Group-6" transform="translate(22, 52)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                <use fill="#9496A2" fill-rule="evenodd" xlink:href="#path-5"></use>
+            </g>
+            <text id="ATS-MAIN-COMPUTER" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000" fill-opacity="0.9">
+                <tspan x="29.1953125" y="12">ATS MAIN</tspan>
+                <tspan x="29.1953125" y="26">COMPUTER</tspan>
+            </text>
+            <g id="SystemState" transform="translate(4, 35)">
+                <text id="SCADA-A" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000" fill-opacity="0.9">
+                    <tspan x="4.39648438" y="10">UNIT 1</tspan>
+                </text>
+                <circle id="Oval" stroke="#000000" fill="#008000" cx="25.5" cy="39.5" r="10"></circle>
+            </g>
+            <g id="SystemStateRed" transform="translate(61, 35)">
+                <text id="SCADA-A" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000" fill-opacity="0.9">
+                    <tspan x="4.39648438" y="10">UNIT 2</tspan>
+                </text>
+                <circle id="Oval" stroke="#000000" fill="#EA3323" cx="25.5" cy="39.5" r="10"></circle>
+            </g>
+        </g>
+        <g id="Group-7" transform="translate(144, 52)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                <use fill="#9496A2" fill-rule="evenodd" xlink:href="#path-7"></use>
+            </g>
+            <text id="COMMUNICATION" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000" fill-opacity="0.9">
+                <tspan x="178.192383" y="12">COMMUNICATION</tspan>
+            </text>
+            <g id="SystemState" transform="translate(5, 35)">
+                <text id="SCADA-A" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000" fill-opacity="0.9">
+                    <tspan x="7.99707031" y="10">SSI A</tspan>
+                </text>
+                <circle id="Oval" stroke="#000000" fill="#008000" cx="25.5" cy="39.5" r="10"></circle>
+            </g>
+            <g id="SystemStateRed" transform="translate(62, 35)">
+                <text id="SCADA-A" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000" fill-opacity="0.9">
+                    <tspan x="7.99707031" y="10">SSI B</tspan>
+                </text>
+                <circle id="Oval" stroke="#000000" fill="#EA3323" cx="25.5" cy="39.5" r="10"></circle>
+            </g>
+            <g id="SystemState" transform="translate(5, 90)">
+                <text id="SCADA-A" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000" fill-opacity="0.9">
+                    <tspan x="0.795898438" y="10">SACEM A </tspan>
+                    <tspan x="15.1982422" y="24">TAK</tspan>
+                </text>
+                <circle id="Oval" stroke="#000000" fill="#008000" cx="25.5" cy="39.5" r="10"></circle>
+            </g>
+            <g id="SystemStateRed" transform="translate(62, 90)">
+                <text id="SCADA-A" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000" fill-opacity="0.9">
+                    <tspan x="0.795898438" y="10">SACEM B </tspan>
+                    <tspan x="15.1982422" y="24">TAK</tspan>
+                </text>
+                <circle id="Oval" stroke="#000000" fill="#EA3323" cx="25.5" cy="39.5" r="10"></circle>
+            </g>
+            <g id="SystemState" transform="translate(134, 35)">
+                <text id="SCADA-A" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000" fill-opacity="0.9">
+                    <tspan x="0.795898438" y="10">SCADA B</tspan>
+                </text>
+                <circle id="Oval" stroke="#000000" fill="#EA3323" cx="25.5" cy="39.5" r="10"></circle>
+            </g>
+            <g id="SystemStateRed" transform="translate(191, 35)">
+                <text id="SCADA-A" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000" fill-opacity="0.9">
+                    <tspan x="0.795898438" y="10">SCADA B</tspan>
+                </text>
+                <circle id="Oval" stroke="#000000" fill="#EA3323" cx="25.5" cy="39.5" r="10"></circle>
+            </g>
+            <g id="SystemState" transform="translate(134, 90)">
+                <text id="SCADA-A" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000" fill-opacity="0.9">
+                    <tspan x="0.795898438" y="10">SACEM A </tspan>
+                    <tspan x="15.1982422" y="24">SIS</tspan>
+                </text>
+                <circle id="Oval" stroke="#000000" fill="#008000" cx="25.5" cy="39.5" r="10"></circle>
+            </g>
+            <g id="SystemStateRed" transform="translate(191, 90)">
+                <text id="SCADA-A" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000" fill-opacity="0.9">
+                    <tspan x="0.795898438" y="10">SACEM B </tspan>
+                    <tspan x="15.1982422" y="24">SIS</tspan>
+                </text>
+                <circle id="Oval" stroke="#000000" fill="#EA3323" cx="25.5" cy="39.5" r="10"></circle>
+            </g>
+            <g id="SystemState" transform="translate(263, 35)">
+                <text id="SCADA-A" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000" fill-opacity="0.9">
+                    <tspan x="7.99707031" y="10">RADIO</tspan>
+                </text>
+                <circle id="Oval" stroke="#000000" fill="#EA3323" cx="25.5" cy="39.5" r="10"></circle>
+            </g>
+            <g id="SystemStateRed" transform="translate(320, 35)">
+                <text id="SCADA-A" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000" fill-opacity="0.9">
+                    <tspan x="15.1982422" y="10">ECS</tspan>
+                </text>
+                <circle id="Oval" stroke="#000000" fill="#EA3323" cx="25.5" cy="39.5" r="10"></circle>
+            </g>
+            <g id="SystemState" transform="translate(263, 90)">
+                <text id="SCADA-A" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000" fill-opacity="0.9">
+                    <tspan x="0.795898438" y="10">SACEM A </tspan>
+                    <tspan x="15.1982422" y="24">LEV</tspan>
+                </text>
+                <circle id="Oval" stroke="#000000" fill="#008000" cx="25.5" cy="39.5" r="10"></circle>
+            </g>
+            <g id="SystemStateRed" transform="translate(320, 90)">
+                <text id="SCADA-A" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000" fill-opacity="0.9">
+                    <tspan x="0.795898438" y="10">SACEM B </tspan>
+                    <tspan x="15.1982422" y="24">LEV</tspan>
+                </text>
+                <circle id="Oval" stroke="#000000" fill="#EA3323" cx="25.5" cy="39.5" r="10"></circle>
+            </g>
+            <g id="SystemStateRed" transform="translate(392, 35)">
+                <text id="SCADA-A" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000" fill-opacity="0.9">
+                    <tspan x="7.99707031" y="10">CLOCK</tspan>
+                </text>
+                <circle id="Oval" stroke="#000000" fill="#EA3323" cx="25.5" cy="39.5" r="10"></circle>
+            </g>
+        </g>
+        <g id="Group-7" transform="translate(600, 52)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                <use fill="#9496A2" fill-rule="evenodd" xlink:href="#path-9"></use>
+            </g>
+            <text id="DATE-AND-TIME" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000" fill-opacity="0.9">
+                <tspan x="18.1923828" y="12">DATE AND TIME</tspan>
+            </text>
+            <text id="DATE" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000" fill-opacity="0.9">
+                <tspan x="11.5976562" y="67">DATE</tspan>
+            </text>
+            <text id="TIME" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000" fill-opacity="0.9">
+                <tspan x="11.5976562" y="120">TIME</tspan>
+            </text>
+            <g id="daterectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                <use fill="#807989" fill-rule="evenodd" xlink:href="#path-11"></use>
+            </g>
+            <g id="timerectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
+                <use fill="#807989" fill-rule="evenodd" xlink:href="#path-13"></use>
+            </g>
+        </g>
+        <line x1="14" y1="39.5" x2="737" y2="39.5" id="Line-5" stroke="#000000" stroke-width="2" stroke-linecap="square"></line>
+    </g>
+</svg>

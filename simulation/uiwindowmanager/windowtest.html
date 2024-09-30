@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window Manager Test</title>
+    <link rel="stylesheet" href="window.css">
+</head>
+<body>
+    <!--
+    <div id="screen" class="screen">
+        <div class="window fullscreen">
+            <div class="windowbar">
+                <button class="leftbutton">
+                    <img src="lefticon.svg" alt="">
+                </button>
+                <p>Title</p>
+                <button>
+                    <img src="righticon.svg" alt="">
+                </button>
+            </div>
+            <div class="content">
+                <h1>Abc</h1>
+                <h2>def</h2>
+            </div>
+        </div>
+    </div>
+    -->
+</body>
+<script src="uiwindowmanager.js"></script>
+<script src="uiwindow.js"></script>
+<script>
+var windowManager = new UIWindowManager(document.body, window)
+test = document.createElement("h2")
+test.innerHTML = "BTBÖ"
+test2 = document.createElement("h2")
+test2.innerHTML = "Based"
+test3 = document.createElement("p")
+test3.innerHTML = "Bu yazıyı görüyorsanız pencere sistemi çalışıyordur!"
+testdiv = document.createElement("div")
+testdiv.appendChild(test2)
+testdiv.appendChild(test3)
+windowManager.addWindow("Merhaba", test, 0, 0, 1280, 1024, true)
+windowManager.addWindow("Ben Baran", testdiv, 300, 300, 500, 500)
+</script>
+</html>

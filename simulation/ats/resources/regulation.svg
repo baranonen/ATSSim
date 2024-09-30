@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path id="Line-4" d="M71.5,3.5 L85.5,10.5 L71.5,17.5 L71.5,11.5 L13.5,11.5 L13.5,9.5 L71.5,9.5 L71.5,3.5 Z" fill="#000000" fill-rule="nonzero"></path>
+        <g id="Group" transform="translate(15, 25)">
+            <path d="M65.6767072,0.5 L69.9517072,10 L65.6767072,19.5 L0.5,19.5 L0.5,0.5 L65.6767072,0.5 Z" id="Rectangle" stroke="#000000"></path>
+            <line x1="0" y1="16" x2="67.5" y2="16" id="Path-23" stroke="#000000" fill="#D8D8D8"></line>
+            <polyline id="Path-23" stroke="#000000" points="6.5 0.5 6.5 6.5 19.5 6.5 19.5 0.5"></polyline>
+            <polyline id="Path-23" stroke="#000000" points="32.5 0.5 32.5 6.5 45.5 6.5 45.5 0.5"></polyline>
+            <rect id="Rectangle" fill-opacity="0.6973066" fill="#000000" x="19" y="0" width="14" height="16.5"></rect>
+            <polyline id="Path-23" stroke="#000000" points="45.5 0.5 45.5 6.5 58.5 6.5 58.5 0.5"></polyline>
+            <polyline id="Path-23" stroke="#000000" points="19.5 0.5 19.5 16 26 16 26 0.5"></polyline>
+            <polyline id="Path-23" stroke="#000000" points="26 0.5 26 16 32.5 16 32.5 0.5"></polyline>
+            <polyline id="Path-24" stroke="#000000" points="58.5 0.5 58.5 11 33 11 69.5 11"></polyline>
+            <line x1="8" y1="10" x2="17" y2="10" id="Path-25" stroke="#000000" stroke-width="2"></line>
+        </g>
+        <g id="Group" transform="translate(50.25, 65) scale(-1, 1) translate(-50.25, -65)translate(15, 55)">
+            <path d="M65.6767072,0.5 L69.9517072,10 L65.6767072,19.5 L0.5,19.5 L0.5,0.5 L65.6767072,0.5 Z" id="Rectangle" stroke="#000000"></path>
+            <line x1="0" y1="16" x2="67.5" y2="16" id="Path-23" stroke="#000000" fill="#D8D8D8"></line>
+            <polyline id="Path-23" stroke="#000000" points="6.5 0.5 6.5 6.5 19.5 6.5 19.5 0.5"></polyline>
+            <polyline id="Path-23" stroke="#000000" points="32.5 0.5 32.5 6.5 45.5 6.5 45.5 0.5"></polyline>
+            <rect id="Rectangle" fill-opacity="0.6973066" fill="#000000" x="19" y="0" width="14" height="16.5"></rect>
+            <polyline id="Path-23" stroke="#000000" points="45.5 0.5 45.5 6.5 58.5 6.5 58.5 0.5"></polyline>
+            <polyline id="Path-23" stroke="#000000" points="19.5 0.5 19.5 16 26 16 26 0.5"></polyline>
+            <polyline id="Path-23" stroke="#000000" points="26 0.5 26 16 32.5 16 32.5 0.5"></polyline>
+            <polyline id="Path-24" stroke="#000000" points="58.5 0.5 58.5 11 33 11 69.5 11"></polyline>
+            <line x1="8" y1="10" x2="17" y2="10" id="Path-25" stroke="#000000" stroke-width="2"></line>
+        </g>
+        <path id="Line-4" d="M71.5,82.5 L85.5,89.5 L71.5,96.5 L71.5,90.5 L13.5,90.5 L13.5,88.5 L71.5,88.5 L71.5,82.5 Z" transform="translate(50, 89.5) scale(-1, 1) translate(-50, -89.5)" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

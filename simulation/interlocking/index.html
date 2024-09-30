@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interlocking Test</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <script src="../map/mapdata.js"></script>
+    <script src="interlocking.js"></script>
+    <script src="interlockinganswer.js"></script>
+    <script src="interlockingpoint.js"></script>
+    <script src="interlockingsignal.js"></script>
+    <script src="interlockingtrackcircuit.js"></script>
+    <script src="../map/map.js"></script>
+    <script src="../map/mapdata.js"></script>
+    <script src="../map/trackcircuit.js"></script>
+    <script src="../map/crosstrackcircuit.js"></script>
+    <script src="../map/point.js"></script>
+    <script src="../map/signal.js"></script>
+    <script src="../alarms/alarmHandler.js"></script>
+    <script src="../alarms/alarm.js"></script>
+    <script src="../track/track.js"></script>
+    <script src="../track/tracktrackcircuit.js"></script>
+    <script src="../track/trackpoint.js"></script>
+</head>
+<body>
+    <h1>Interlocking Test</h1>
+    <hr>
+</body>
+<script>
+    map = new Map(mapData)
+    interlocking = new Interlocking(map)
+    track = new Track(interlocking)
+</script>
+</html>

@@ -1,0 +1,94 @@
+:root {
+    --window-background: #AFB2C1;
+    --darker-background: #9496A2;
+    --screen-width: 1280px;
+    --screen-height: 1024px;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    user-drag: none;
+    -webkit-touch-callout: none;
+    cursor: url('data:image/svg+xml;utf8,<svg width="28px" height="29px" viewBox="0 0 28 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M0,0 C7.25925926,14.4121212 10.8888889,21.6181818 10.8888889,21.6181818 C10.8888889,21.6181818 11.5802469,19.5090909 12.962963,15.2909091 L25.9259259,29 L28,26.3636364 L15.037037,13.1818182 L20.7407407,11.0727273 L0,0 Z" id="Path-18" fill="%23000000"></path></g></svg>') 0 0, auto;
+}
+
+body {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+}
+
+#screen {
+    background-color: rgb(255, 255, 255);
+    width: var(--screen-width);
+    height: var(--screen-height);
+    min-width: var(--screen-width);
+    min-height: var(--screen-height);
+    position: relative;
+    cursor: url('data:image/svg+xml;utf8,<svg width="28px" height="29px" viewBox="0 0 28 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M0,0 C7.25925926,14.4121212 10.8888889,21.6181818 10.8888889,21.6181818 C10.8888889,21.6181818 11.5802469,19.5090909 12.962963,15.2909091 L25.9259259,29 L28,26.3636364 L15.037037,13.1818182 L20.7407407,11.0727273 L0,0 Z" id="Path-18" fill="%23000000"></path></g></svg>') 0 0, auto;
+}
+
+.window {
+    background-color: var(--window-background);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--window-background);
+    border-top: white solid 1px;
+    border-left: white solid 1px;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+}
+
+.windowbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    border-bottom: 1px solid black;
+}
+
+.windowbar button {
+    width: 20px;
+    height: 19px;
+    background: none;
+    border: none;
+    border-left: 1px solid black;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.windowbar .leftbutton {
+    border: none;
+    border-right: 1px solid black;
+}
+
+.windowbar button img {
+    width: 18px;
+    height: 18px;
+}
+
+.fullscreen {
+    top: 0;
+    left: 0;
+    width: var(--screen-width);
+    height: var(--screen-height);
+}
