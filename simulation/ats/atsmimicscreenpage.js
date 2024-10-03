@@ -9,6 +9,7 @@ class ATSMimicScreenPage {
     signalButtons
     controlBar
     trainDescribers
+    pointBlinkEnable
     ats
 
     constructor(name, svg, interlocking, ats) {
@@ -22,6 +23,7 @@ class ATSMimicScreenPage {
         this.secondsSinceButtonClick = 0
         this.signalButtons = []
         this.trainDescribers = []
+        this.pointBlinkEnable = true
         this.startSignals()
         this.startShuntingPanels()
         this.startTrackCircuits()
@@ -31,6 +33,11 @@ class ATSMimicScreenPage {
         setTimeout(this.startPageButtons.bind(this), 200)
         this.HTMLElement.querySelector("#screenbackground").addEventListener("click", () => {this.currentClickedButton = null})
         this.controlBar = new ATSMimicScreenControlBar(this.HTMLElement.querySelector("#ControlBar"), this)
+        setInterval(this.pointBlink.bind(this), 500)
+    }
+
+    pointBlink() {
+        this.pointBlinkEnable = !this.pointBlinkEnable
     }
 
     startSignals() {
@@ -200,13 +207,13 @@ class ATSMimicScreenPage {
         } catch {
             trackCircuitColor = "blue"
         }
-        if (interlockingPoint.currentPosition != interlockingPoint.desiredPosition) {
+        if (interlockingPoint.currentPosition != interlockingPoint.desiredPosition && !this.pointBlinkEnable) {
             pointInScreen.querySelector("#N").setAttribute("stroke", "#00fffff")
             pointInScreen.querySelector("#R").setAttribute("stroke", "#00fffff")
-        } else if (interlockingPoint.currentPosition == "normal") {
+        } else if (this.pointBlinkEnable && interlockingPoint.desiredPosition == "normal" || interlockingPoint.currentPosition == "normal") {
             pointInScreen.querySelector("#N").setAttribute("stroke", trackCircuitColor)
             pointInScreen.querySelector("#R").setAttribute("stroke", "#00fffff")
-        } else if (interlockingPoint.currentPosition == "reverse") {
+        } else if (this.pointBlinkEnable && interlockingPoint.desiredPosition == "reverse" || interlockingPoint.currentPosition == "reverse") {
             pointInScreen.querySelector("#R").setAttribute("stroke", trackCircuitColor)
             pointInScreen.querySelector("#N").setAttribute("stroke", "#00fffff")
         } else {
