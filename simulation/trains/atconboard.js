@@ -81,17 +81,8 @@ class ATCOnboard {
     checkDwellTime() {
         if (this.train.direction == "northbound") {
             if (!this.stoppedAtStation) {
-                if (this.train.name == "01") {
-                    console.log("current not stopped")
-                }
                 if (this.train.carPositions[0].mapTrackCircuit.northboundPlatform != null) {
-                    if (this.train.name == "01") {
-                        console.log("in platform area")
-                    }
                     if (this.train.carPositions[0].position == this.train.carPositions[0].mapTrackCircuit.northboundPlatform.northboundPosition && !this.departing) {
-                        if (this.train.name == "01") {
-                            console.log("start stopping at station")
-                        }
                         this.stoppedAtStation = true
                         this.currentlyStoppedPlatform = this.train.carPositions[0].mapTrackCircuit.northboundPlatform
                         this.stopAtStationTimestamp = Date.now()
@@ -99,9 +90,6 @@ class ATCOnboard {
                     }
                 }
             } else {
-                if (this.train.name == "01") {
-                    console.log("current stopped")
-                }
                 if (this.currentlyStoppedPlatform.terminus && !this.alreadyChangedEnds) {
                     this.alreadyChangedEnds = true
                     this.train.driver.changeEnds()
@@ -111,17 +99,10 @@ class ATCOnboard {
                     this.currentlyStoppedPlatform.direction == "northbound" && !this.ats.regulation.globalNorthboundHold
                     || this.currentlyStoppedPlatform.direction == "southbound" && !this.ats.regulation.globalSouthboundHold
                 ) && this.isMALongEnoughToDepart()) {
-                    if (this.train.name == "01") {
-                        console.log("can depart")
-                    }
                     this.departing = true
                     this.stoppedAtStation = false
                     this.alreadyChangedEnds = false
                 } else {
-                    if (this.train.name == "01") {
-                        console.log("can not depart")
-                        console.log("current waited time " + (Date.now() - this.stopAtStationTimestamp) / 1000)
-                    }
                     return false
                 }
             }

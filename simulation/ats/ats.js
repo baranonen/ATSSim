@@ -218,7 +218,7 @@ class ATS {
         navigationBar.appendChild(alarmsButton)
 
         var activeAlarmButton = document.createElement("button")
-        activeAlarmButton.style.backgroundImage = "url(./ats/resources/activeAlarm.svg)"
+        activeAlarmButton.style.backgroundImage = "url(./ats/resources/activealarm.svg)"
         navigationBar.appendChild(activeAlarmButton)
 
         this.interlockingAnswerFirstLine = document.createElement("p")

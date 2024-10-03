@@ -102,10 +102,6 @@ class Train {
         )) {
             this.continueUntilNextSignal = false
         }
-        if (this.name == "01") {
-            console.log("update 1")
-            console.log(nextUpdate)
-        }
         setTimeout(this.updatePosition.bind(this), Math.random() * (400) + nextUpdate)
     }
 

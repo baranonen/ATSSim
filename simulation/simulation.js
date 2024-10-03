@@ -22,7 +22,6 @@ interlocking.getCycleFromName("TAK_1").enable()
 interlocking.getCycleFromName("4LV_22").enable()
 interlocking.getCycleFromName("4LV_22").currentPhase = "exit"
 
-console.log("a")
 var trains = []
 trains.push(new Train("01", 4, map, track, map.getTrackCircuitFromName("OSM_01T"), "northbound", interlocking, ats))
 trains.push(new Train("02", 4, map, track, map.getTrackCircuitFromName("GAY_10T"), "southbound", interlocking, ats))
