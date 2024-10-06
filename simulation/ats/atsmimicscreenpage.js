@@ -210,10 +210,10 @@ class ATSMimicScreenPage {
         if (interlockingPoint.currentPosition != interlockingPoint.desiredPosition && !this.pointBlinkEnable) {
             pointInScreen.querySelector("#N").setAttribute("stroke", "#00fffff")
             pointInScreen.querySelector("#R").setAttribute("stroke", "#00fffff")
-        } else if (this.pointBlinkEnable && interlockingPoint.desiredPosition == "normal" || interlockingPoint.currentPosition == "normal") {
+        } else if ((this.pointBlinkEnable || interlockingPoint.currentPosition == "normal") && interlockingPoint.desiredPosition == "normal") {
             pointInScreen.querySelector("#N").setAttribute("stroke", trackCircuitColor)
             pointInScreen.querySelector("#R").setAttribute("stroke", "#00fffff")
-        } else if (this.pointBlinkEnable && interlockingPoint.desiredPosition == "reverse" || interlockingPoint.currentPosition == "reverse") {
+        } else if ((this.pointBlinkEnable || interlockingPoint.currentPosition == "reverse") && interlockingPoint.desiredPosition == "reverse" ) {
             pointInScreen.querySelector("#R").setAttribute("stroke", trackCircuitColor)
             pointInScreen.querySelector("#N").setAttribute("stroke", "#00fffff")
         } else {
