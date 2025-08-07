@@ -304,16 +304,11 @@ class Interlocking {
         route.path.forEach(trackCircuitName => {
             var trackCircuit = this.getTrackCircuitFromName(trackCircuitName)
             if (trackCircuit.mapTrackCircuit instanceof CrossTrackCircuit) {
-                trackCircuit.direction = route.crossTrackCircuits[trackCircuitName]
+                trackCircuit.reserveForRoute(route.crossTrackCircuits[trackCircuitName], shuntingRoute)
             } else {
-                trackCircuit.direction = route.direction
+                trackCircuit.reserveForRoute(route.direction, shuntingRoute)
             }
-            if (!shuntingRoute) {
-                trackCircuit.reservedForRoute = true
-                AlarmHandler.addEvent(trackCircuit.name, "ALT GÜZERGAH KİLİTLİ", "SUBROUTE LOCKED")
-            } else {
-                trackCircuit.reservedForShuntingRoute = true
-            }
+            AlarmHandler.addEvent(trackCircuit.name, "ALT GÜZERGAH KİLİTLİ", "SUBROUTE LOCKED")
         })
     }
 
@@ -403,6 +398,24 @@ class Interlocking {
         if (routeAlreadyActive) {
             return new InterlockingAnswer(false, "routeAlreadySet")
         }
+        var routeBeingReleased = true
+        for (const trackCircuitName of route.path) {
+            var trackCircuit = this.getTrackCircuitFromName(trackCircuitName)
+            if (!trackCircuit.approachLocked || trackCircuit.direction != route.direction) {
+                routeBeingReleased = false
+            }
+        }
+        if (routeBeingReleased) {
+            route.pointPositions.forEach(pointPosition => {
+                var point = this.getPointFromName(pointPosition.name)
+                if (point.desiredPosition != pointPosition.position) {
+                    routeBeingReleased = false
+                }
+            })
+        }
+        if (routeBeingReleased) {
+            return new InterlockingAnswer(true)
+        }
         for (const trackCircuitName of route.path) {
             var trackCircuit = this.getTrackCircuitFromName(trackCircuitName)
             if (trackCircuit.occupied) {
@@ -450,7 +463,7 @@ class Interlocking {
         } else {
             var previousTrackCircuit = mapTrackCircuit.getSouthbound("normal").interlockingTrackCircuit
         }
-        if (previousTrackCircuit.occupied) {
+        if (previousTrackCircuit.occupied && signal.aspect != "red") {
             this.cancelRouteHelper(mapTrackCircuit, direction, false)
         } else {
             this.cancelRouteHelper(mapTrackCircuit, direction, true)

@@ -11,6 +11,7 @@ class InterlockingTrackCircuit {
     deactivated
     mapTrackCircuit
     reserveForRouteRequests
+    releaseTimer
 
     constructor(name, mapTrackCircuit) {
         this.name = name
@@ -23,7 +24,20 @@ class InterlockingTrackCircuit {
         this.occupied = false
         this.mapTrackCircuit = mapTrackCircuit
         this.reserveForRouteRequests = 0
-        this.approachLockingTimeout = null
+        this.releaseTimer = null
+    }
+
+    reserveForRoute(direction, shuntingRoute = false) {
+        if (this.releaseTimer != null) {
+            clearTimeout(this.releaseTimer)
+        }
+        this.direction = direction
+        if (shuntingRoute) {
+            this.reservedForShuntingRoute = true
+        } else {
+            this.reservedForRoute = true
+        }
+        this.approachLocked = false
     }
 
     releaseRouteInstantly() {
@@ -36,7 +50,9 @@ class InterlockingTrackCircuit {
         this.approachLocked = true
         this.reservedForRoute = false
         this.reservedForShuntingRoute = false
-        setTimeout(() => { this.approachLocked = false }, 60000)
+        this.releaseTimer = setTimeout(() => {
+            this.approachLocked = false
+        }, 60000)
     }
 
     getCurrentNext(direction) {
